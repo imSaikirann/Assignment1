@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipad</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .con
+        {
+            display: grid;
+            background-color: #CED4DA;
+            grid-template-columns: auto;
+            gap: 50px;
+            justify-items: left;
+            position: relative;
+        }
+        .grid
+        {
+            width: 490px;
+            height: 490px;
+            border: 1px black;
+            padding: 20px;
+            font-size: 30px;
+            text-align: left;
+        }
+        img
+        {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+        h2
+        {
+            position: absolute;
+            color: #495057;
+            top: 12%;
+            left: 60%;
+            font-family: sans-serif;
+            font-size: 33px;
+            height: 100px;
+        }
+        span
+        {
+            color: orangered;
+        }
+        button
+        {
+            background-color: blue;
+            border-radius: 20px;
+            position: absolute;
+            color: aliceblue;
+            top: 24%;
+            left: 60%;
+            font-family: sans-serif;
+            font-size: 25px;
+            border: 0;
+            width: 75px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .b1
+        {
+            background-color: blue;
+            border-radius: 20px;
+            position: absolute;
+            color: white;
+            top: 72%;
+            left: 60%;
+            font-family: sans-serif;
+            font-size: 25px;
+            border: 0;
+            width: 75px;
+            height: 40px;
+            cursor: pointer;
+
+        }
+        h1
+        {
+            position: absolute;
+            color: #495057;
+            top: 60%;
+            left: 60%;
+            font-family: sans-serif;
+            font-size: 33px;
+            height: 100px;
+
+        }
+        .s
+        {
+            font-weight: 600;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="grid">
+            <img src="images/p4.jpg">
+            <h2><span>New</span> iPad air <br>Light.Bright.Full of might. <br> From $599</h2>
+            <a href="buy.html" target="o"> <button>Buy</button></a>
+        </div>
+        <hr style="margin:20px px" color="black">
+        <div class="grid">
+            <img src="images/p5.jpg">
+            <h1><span class="s">iPad Pro</span> The ultimate ipad experience. <br>From $799</h1>
+            <a href="buy.html" target="o"><button class="b1">Buy</button></a>
+        </div>
+    </div>
+    
+</body>
+</html>

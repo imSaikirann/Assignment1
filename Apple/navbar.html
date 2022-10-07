@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: black;
+        }
+        li ,a,button
+        {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        header
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 10px;
+            cursor: pointer;
+            padding-left: 20px;
+        }
+        .nav
+        {
+            list-style: none;
+        }
+        .nav li
+        {
+            display: inline-block;
+            padding: 0px 20px;
+            font-size: 20px;
+        }
+        h1{
+            color: azure;
+        }
+        button
+        {
+            color: #24252A;
+            padding-top: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 8px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            border-radius: 3px;
+            border: 1px solid white;
+        }
+        button:hover
+        {
+            background-color: #24252A;
+            color: white;
+        }
+        input[type=search]
+        {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-right: 300px;
+            padding-left: 0px;
+            font-size: 20px;
+            font-family: sans-serif;
+            border-radius: 5px;
+            border: 0px;
+            padding-left: 5px;
+            text-decoration: noane;
+            background-color: #ADB5BD;
+            color: #24252A;
+        }
+        img
+        {
+            width: 35px;
+            height: 40px;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="images/logo.png" ></h1>
+        <input type="search" name="search" placeholder="Search">
+        <nav> 
+            <ul class="nav">
+                <li><a href="store.html" target="o">Home</a></li>
+                <li><a href="profie.html" target="o">Profile</a></li>
+                <li><a href="about.html" target="o">About</a></li>
+                
+            </ul>
+        </nav>
+        <a class="c" href="login.html" target="o"><button>Log in</button></a>
+    </header>
+</body>
+</html>
